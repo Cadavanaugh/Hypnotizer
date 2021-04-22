@@ -32,7 +32,7 @@ $(() => {
         if (a.length < 2) a = ("0" + a).slice(-2);
         return a;
       }
-
+      //Show time inputed for first time
       $(".black p").text(`${stringTime(minutes)}:${stringTime(seconds)}`);
 
       //Timer function
