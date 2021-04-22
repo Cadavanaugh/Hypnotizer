@@ -19,46 +19,98 @@ img {
   height: 100%;
   margin: 0;
 }
-section{
-    background-color: white;
-    width: 40%;
-    margin: 0 auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 20px;
-    min-width: 300px;
+.main {
+  background-color: white;
+  width: 40%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  min-width: 300px;
 }
-section h1{
-    text-align: center;
-    margin-bottom: 20px;
+.main h1 {
+  text-align: center;
+  margin-bottom: 20px;
 }
-.inputs{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.inputs input{
-    width: 70px;
-    padding: 10px;
-    outline: 0;
-    border: 0;
-    background-color: lightgray;
-    font-size: 30px;
+.inputs input {
+  width: 70px;
+  padding: 10px;
+  outline: 0;
+  border: 0;
+  background-color: lightgray;
+  font-size: 30px;
 }
-.inputs p{
-    margin:0 20px;
-    font-size:30px;
+.inputs p {
+  margin: 0 20px;
+  font-size: 30px;
 }
-.btn{
-    text-align: center;
-    margin-top: 20px;
+.btn {
+  text-align: center;
+  margin-top: 20px;
 }
-section button{
-    padding:18px 20px;
-    text-transform: uppercase;
-    width: 30%;
-    font-size: 20px;
-    min-width: 110px;
+.main button {
+  padding: 18px 20px;
+  text-transform: uppercase;
+  width: 30%;
+  font-size: 20px;
+  min-width: 110px;
+}
+.modal {
+  background-color: wheat;
+  width: 40%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 300px;
+  display: none;
+  padding: 2%;
+}
+.x {
+  position: absolute;
+  right: -7%;
+  top: -7%;
+  background-color: white;
+  font-weight: bold;
+  padding: 5% 6%;
+  cursor: pointer;
+  font-size: 3vw;
+  border-radius: 100%;
+}
+.clock {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+}
+.clock img {
+  border-radius: 100%;
+  width: 100%;
+}
+.black {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.black p {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 10vw;
 }
