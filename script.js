@@ -2,11 +2,16 @@ $(() => {
   const mainWindow = $(".main");
   const modalWindow = $(".modal");
 
+  let randomNum = Math.floor(Math.random() * 4 + 1);
   $("button").click(() => {
-    //Random clock at each attempt
-    const randomNum = Math.floor(Math.random() * 4 + 1);
-    $(".clock img").attr("src", `./clocks/clock${randomNum}.gif`);
-    
+    //Different clock at each attempt
+    $(".clock img").attr("src", `./img/clocks/clock${randomNum}.gif`);
+    let newRandom = Math.floor(Math.random() * 4 + 1);
+    while (randomNum === newRandom) {
+      newRandom = Math.floor(Math.random() * 4 + 1);
+    }
+    randomNum = newRandom;
+
     //Time input and validation
     let minutes = parseInt($("#min").val());
     let seconds = parseInt($("#sec").val());
