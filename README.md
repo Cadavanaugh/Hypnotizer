@@ -13,16 +13,16 @@ That are 4 different hypnotizing clocks:
 
 1.
 
-<img src="C:\Users\jovan\Documents\MEUS DOCUMENTOS\Github\Hypnotizer\img\readme\clock1.PNG" alt="Clock 1" style="zoom:33%;" />
+<img src="img\readme\clock1.PNG" alt="Clock 1" style="zoom:33%;" />
 
 2.
 
-<img src="C:\Users\jovan\Documents\MEUS DOCUMENTOS\Github\Hypnotizer\img\readme\clock2.PNG" alt="Clock 2" style="zoom:33%;" />
+<img src="img\readme\clock2.PNG" alt="Clock 2" style="zoom:33%;" />
 
 3.
 
-<img src="C:\Users\jovan\Documents\MEUS DOCUMENTOS\Github\Hypnotizer\img\readme\clock3.PNG" alt="Clock 3" style="zoom:33%;" />
+<img src="img\readme\clock3.PNG" alt="Clock 3" style="zoom:33%;" />
 
 4.
 
-<img src="C:\Users\jovan\Documents\MEUS DOCUMENTOS\Github\Hypnotizer\img\readme\clock4.PNG" alt="Clock 4" style="zoom:33%;" />
+<img src="img\readme\clock4.PNG" alt="Clock 4" style="zoom:33%;" />
