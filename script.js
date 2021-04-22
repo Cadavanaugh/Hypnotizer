@@ -42,7 +42,6 @@ $(() => {
           seconds += 60;
         }
         seconds -= 1;
-        console.log(minutes + ":" + seconds);
         if (minutes === 0 && seconds === 0) clearInterval(timer);
         $(".black p").text(`${stringTime(minutes)}:${stringTime(seconds)}`);
       }
