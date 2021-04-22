@@ -3,6 +3,10 @@ $(() => {
   const modalWindow = $(".modal");
 
   $("button").click(() => {
+    //Random clock at each attempt
+    const randomNum = Math.floor(Math.random() * 4 + 1);
+    $(".clock img").attr("src", `./clocks/clock${randomNum}.gif`);
+    
     //Time input and validation
     let minutes = parseInt($("#min").val());
     let seconds = parseInt($("#sec").val());
