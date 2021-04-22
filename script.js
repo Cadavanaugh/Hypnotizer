@@ -43,7 +43,7 @@ $(() => {
         $(".black p").text(`${stringTime(minutes)}:${stringTime(seconds)}`);
       }
       //Starting timer
-      let timer = setInterval(crono, 100);
+      let timer = setInterval(crono, 1000);
 
       //Fade-out modal window
       $(".x").click(() => {
