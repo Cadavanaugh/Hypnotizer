@@ -13,16 +13,16 @@ That are 4 different hypnotizing clocks:
 
 1.
 
-<img src="img\readme\clock1.PNG" alt="Clock 1" style="zoom:33%;" />
+<img src="img\readme\clock1.PNG" alt="Clock 1" style="zoom:33%;" width='500'/>
 
 2.
 
-<img src="img\readme\clock2.PNG" alt="Clock 2" style="zoom:33%;" />
+<img src="img\readme\clock2.PNG" alt="Clock 2" style="zoom:33%;" width='500'/>
 
 3.
 
-<img src="img\readme\clock3.PNG" alt="Clock 3" style="zoom:33%;" />
+<img src="img\readme\clock3.PNG" alt="Clock 3" style="zoom:33%;" width='500'/>
 
 4.
 
-<img src="img\readme\clock4.PNG" alt="Clock 4" style="zoom:33%;" />
+<img src="img\readme\clock4.PNG" alt="Clock 4" style="zoom:33%;" width='500'/>
